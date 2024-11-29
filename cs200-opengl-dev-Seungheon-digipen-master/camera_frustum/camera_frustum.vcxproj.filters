@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="렌더에 필요한 거">
+      <UniqueIdentifier>{e8cbc6c5-da0d-4575-ae21-506c250a8948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="매쉬">
+      <UniqueIdentifier>{ef92b476-6bda-4752-a38b-2994d4197ec1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CameraFrustumTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRenderTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraRender2DTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleZTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipDemo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDemo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HalfSpaceTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Affine.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="Clip.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="HalfSpace.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRender.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterUtilities.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="Projection.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraRender2D.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMesh.cpp">
+      <Filter>매쉬</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumMesh.cpp">
+      <Filter>매쉬</Filter>
+    </ClCompile>
+    <ClCompile Include="SnubDodecMesh.cpp">
+      <Filter>매쉬</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineDemo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeRenderDemo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="My_demo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="planet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="star.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpolationTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureClipTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolate.cpp">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Affine.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraRender2D.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="Raster.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterUtilities.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRender.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="Clip.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="Projection.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="HalfSpace.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMesh.h">
+      <Filter>매쉬</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumMesh.h">
+      <Filter>매쉬</Filter>
+    </ClInclude>
+    <ClInclude Include="SnubDodecMesh.h">
+      <Filter>매쉬</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>매쉬</Filter>
+    </ClInclude>
+    <ClInclude Include="planet.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="star.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolate.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>렌더에 필요한 거</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ClipTest.txt" />
+    <Text Include="HalfSpaceTest.txt" />
+    <Text Include="TextureClipTest.txt" />
+  </ItemGroup>
+</Project>
