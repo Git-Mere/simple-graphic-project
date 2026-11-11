@@ -3,6 +3,12 @@ A software + hardware rendering study covering the full 3D graphics pipeline, wr
 
 ![banner](s_banner.png)
 
+## Highlights
+
+- CPU triangle rasterizer with barycentric coverage, a float z-buffer, and texture-mapped fills
+- Polygon clipping in homogeneous clip space against all 6 view-volume planes
+- Renders the intersection of 2 moving textured cubes by clipping each against the other's 12 face half-spaces
+
 ## Features
 
 - **2D/3D Affine Transformations** — translate, rotate, and scale matrices implemented from scratch, verified against a dedicated black-box test suite before use in any draw call
